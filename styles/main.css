@@ -27,14 +27,13 @@
 }
 
 .nav li {
-  flex: 1;
 }
 
 .nav a {
   color: #000;
   text-decoration: none;
   transition: all ease 125ms;
-  display: block;
+  display: flex;
   padding: 2em 1em;
 }
 
@@ -59,13 +58,8 @@
   background-image: url('../images/hot-air-balloon.webp');
   background-size: cover;
   background-position: center;
-  /*transition: all ease 1s;*/
   animation: elephant 5s ease infinite;
 }
-
-/*.hero:hover .hero-inner {
-  transform: scale(1.2);
-}*/
 
 .hero-text {
   position: absolute;
@@ -115,6 +109,25 @@
 
 .content p {
   line-height: 1.4;
+}
+
+.content a:link {
+  color: #660099;
+}
+.content a:visited {
+  color: #876399;
+}
+.content a:hover {
+  color: #339900;
+}
+
+.content ul {
+  list-style: square;
+  margin-left: 2em;
+}
+
+.content ol {
+  margin-left: 1em;
 }
 
 /* Footer */
