@@ -86,7 +86,7 @@
 .hero-text a {
   font-size: 1rem;
   text-shadow: none;
-  color: #fff;
+  color: #fff !important;
   background-color: orange;
   text-decoration: none;
   padding: 1em 2em;
@@ -100,7 +100,7 @@
 
 .hero-text a:hover {
   background-color: orangered;
-  color: #fff;
+  color: #fff !important;
 }
 
 .content h2 {
