@@ -109,6 +109,14 @@
   color: #fff;
 }
 
+.content h2 {
+  font-style: italic;
+}
+
+.content p {
+  line-height: 1.4;
+}
+
 /* Footer */
 .footer {
   padding-top: 1rem;
