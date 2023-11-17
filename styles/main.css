@@ -155,3 +155,50 @@
     transform: scale(1);
   }
 }
+
+/* Contact form */
+.form {
+  max-width: 30rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.form label {
+  margin-bottom: 0.25em;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.form input,
+.form textarea {
+  padding: 0.5em;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+}
+
+.form textarea {
+  min-height: 10rem;
+}
+
+.form button {
+  border: 2px solid dodgerblue;
+  color: dodgerblue;
+  font-weight: bold;
+  background-color: transparent;
+  border-radius: 100px;
+  padding: 0.5em 2em;
+  display: flex;
+  align-items: center;
+  font-size: 0.9em;
+  transition: all ease 125ms;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: dodgerblue;
+  color: #fff;
+}
