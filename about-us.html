@@ -31,8 +31,50 @@
   <main class="content">
     <h2>About us</h2>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi vero deserunt blanditiis odio delectus eos illo modi perspiciatis numquam harum necessitatibus et ipsa tempore quia impedit dolorum doloremque, minima cum!</p>
+    <canvas id="canvas" width="200" height="240"></canvas>
   </main>
 
   <footer class="footer">&copy; John Tobin 2023</footer>
+
+  <script>
+    const canvas = document.getElementById('canvas');
+    const context = canvas.getContext('2d');
+
+    context.beginPath(); // start a path
+    context.arc(100, 100, 44, 0, 2 * Math.PI, false); // Draw the circle
+    context.fillStyle = 'darkorange'; // Specify the fill colour
+    context.fill();
+
+    context.beginPath();
+    context.moveTo(100, 143);
+    context.lineTo(100, 200);
+    context.stroke();
+
+    context.beginPath(); // start a path
+    context.arc(150, 75, 46, 0, 2 * Math.PI, false); // Draw the circle
+    context.fillStyle = 'dodgerblue'; // Specify the fill colour
+    context.fill();
+
+    context.beginPath();
+    context.moveTo(150, 120);
+    context.lineTo(100, 200);
+    context.stroke();
+
+    context.beginPath(); // start a path
+    context.arc(50, 50, 48, 0, 2 * Math.PI, false); // Draw the circle
+    context.fillStyle = 'red'; // Specify the fill colour
+    context.fill();
+
+    context.beginPath();
+    context.moveTo(49, 98);
+    context.lineTo(100, 200);
+    context.stroke();
+
+    context.beginPath();
+    context.moveTo(100, 200);
+    context.lineTo(100, 240);
+    context.stroke();
+
+  </script>
 </body>
 </html>

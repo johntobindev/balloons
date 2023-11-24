@@ -218,3 +218,8 @@
   background-color: dodgerblue;
   color: #fff;
 }
+
+#canvas {
+  display: block;
+  margin: 0 auto;
+}
